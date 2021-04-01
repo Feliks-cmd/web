@@ -6,8 +6,6 @@ body {
 
 h1 {
 	
-	padding-left: 300px;
-	padding-right: 300px;
 	color: #FF3230;
 	font-size: 2.85rem;
 	text-align: 100%;
@@ -15,17 +13,15 @@ h1 {
 
 
 
+
 h2 {
-	padding-left: 300px;
-	padding-right: 300px;
 	color: rgba(255, 51, 48, 0.835);
 	font-size: 1.75rem;
 	text-align: 100%;
 }
 
 p {
-	padding-left: 300px;
-	padding-right: 300px;
+
 	color: #8e939c; 
 	font-size: 20px;
 }
@@ -33,7 +29,13 @@ p {
 hr {
 	border-color: teal;
 	margin-left: auto;
-	width: 56%;
+	width: 55%;
+}
+
+.ref {
+	border-color: teal;
+	margin-left: auto;
+	width: auto;
 }
 
 /*logo*/
@@ -47,6 +49,11 @@ hr {
 	
 }
 
+.content {
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
 img {
 	width: 130px;
 	height: 130px;
@@ -56,8 +63,7 @@ img {
 }
 
 ul {
-	padding-left: 300px;
-	padding-right: 300px;
+	
 	color: #8e939c;
 	font-size: 1;
 }
@@ -69,35 +75,48 @@ a {
 	text-decoration: none;
 }
 
+b {
+	color: #535252;
+}
+
 /*back and next button*/
 .back {
 	border: 1px solid #00C590;
 	color: #00C590;
 	background: none;
 	padding: 10px 20px;
-	margin-left: 300px;
+	margin-left: auto;/*40% 340%00px;*/
 	font-size: 20px;
-}
-
+  }
 
 .next {
 	border: 1px solid #00C590;
 	color: #00C590;
 	background: none;
 	padding: 10px 20px;
-	margin-left: 300px;
+	margin-left: 600px;
+}
+
+/*
+.next {
+	border: 1px solid #00C590;
+	color: #00C590;
+	background: none;
+	padding: 10px 20px;
+	margin-right: auto;
 	font-size: 20px;
 }
+*/
 
 /*footer*/
 .container {
-	padding-left: 300px;
-	padding-right: 300px;
+	
 	padding: 2em;
 	max-width: 1200px;
 	margin-top: 100px;
-	margin-left: 380px;
-	text-align: initial;
+	margin-bottom: 50px;
+	margin-left: 580px;/*
+	text-align: center;*/
 }
 
 
