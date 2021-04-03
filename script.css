@@ -32,11 +32,7 @@ hr {
 	width: 55%;
 }
 
-.ref {
-	border-color: teal;
-	margin-left: auto;
-	width: auto;
-}
+
 
 /*logo*/
 
@@ -50,8 +46,10 @@ hr {
 }
 
 .content {
+
 	padding-left: 25%;
 	padding-right: 25%;
+
 }
 
 img {
@@ -85,7 +83,7 @@ b {
 	color: #00C590;
 	background: none;
 	padding: 10px 20px;
-	margin-left: auto;/*40% 340%00px;*/
+	margin-left:40% 340%00px;
 	font-size: 20px;
   }
 
@@ -94,7 +92,26 @@ b {
 	color: #00C590;
 	background: none;
 	padding: 10px 20px;
-	margin-left: 600px;
+	font-size: 20px;
+	margin-left: 40px;
+	float: right;
+}
+
+.btns{
+	padding:0px;
+    margin:auto;
+    width:100%;
+    /*border:1px solid red;*/
+}
+
+
+/*
+.next {
+	border: 1px solid #00C590;
+	color: #00C590;
+	background: none;
+	
+	 margin-right: initial;
 }
 
 /*
@@ -109,14 +126,27 @@ b {
 */
 
 /*footer*/
+
+/*
 .container {
 	
 	padding: 2em;
 	max-width: 1200px;
 	margin-top: 100px;
-	margin-bottom: 50px;
-	margin-left: 580px;/*
-	text-align: center;*/
+	margin-left: 380px;
+	text-align: auto;
 }
+*/
 
+.container {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin:auto;
+	width: 30%;
+	height: 20%;
+	border: 1px red;
+	text-align: center;
+}
 
