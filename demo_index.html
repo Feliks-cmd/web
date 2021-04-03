@@ -1,28 +1,59 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>WebSec - home page</title>
+		<title>home page</title>
 		<link rel="stylesheet" href="script.css">
 	</head>
+
 	<body>
-		<div class="content">
 
 		<div class="logo">
-			<a href="index.html"><img src="logo4.png" ></a> 		
+			<a href="demo_index.html"><img src="logo4.png" alt="WebSec"></a> 
 		</div>
 
 		<hr>
-		<h1>My first heading</h1>
-			<p>
-				This is my first paragraph. It has a break line here --><br>
-				There see. This is a <i>text in italic</i>, and this is another in <b>bold</b><br>
-				I can also link a file or page. Here's an example:
-			</p>
-		
-		<div>
+
 		<br>
-		<a class="back" href="malware2.html">Previous page</a>
-		<a class="next" href="sth.html">Next page</a>
+		<div class="alert">
+				<a class="info" href="https://google.com">Test yourself?</a>
+			<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+		</div>
+
+		<div class="content"><!--the closing div tag is at the bottom just above the footer tag-->
+
+
+		<h1> This is my first heading</h1>
+
+		<p>
+			This is my first paragraph. 
+			<b>These words are in bold</b>, 
+			and <a href="google.com"> this is a link</a>.
+		<h2>The following is a list of things:</h2>
+			<ul>
+				<li>Apple</li>
+				<li>trees</li>
+				<li>Cows</li>
+			</ul>
+
+		<h2>The following is a list things as links:</h2>
+		<ul>
+			<li><a href="google.com">Apple</a></li>
+			<li><a href="google.com">Trees</a></li>
+			<li><a href="google.com">Cows</a></li>
+		</ul>
+
+		</p>
+
+		<div class="btns">
+			<button type="button" class="back">
+				<a href="malware2.html">Previous page</a>
+			</button><!--not available for the first page-->
+
+			<button type="button" class="next">
+				<a href="sth.html">Next page</a>
+			</button><!--not available for last page-->	
+		</div>
+
 		</div>
 
 		<footer>
@@ -31,6 +62,7 @@
 				&copy; Copyright 2021-WebSec IT private service Limited 
 			</div>
 		</footer>
-	</div>
+		<br>		
+
 	</body>
 </html>
