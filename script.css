@@ -173,6 +173,17 @@ b {
 	color: #137d51;
 }
 
+.info {
+	background: none;
+	border: none;
+	font-size: 22px
+	color: #23de90;
+}
+
+.info:hover {
+	color:  #137d51;
+}
+
 .closebtn {
 	margin-left: 15px;
     color:  grey;
