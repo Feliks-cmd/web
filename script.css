@@ -33,15 +33,11 @@ hr {
 }
 
 
-
-/*logo*/
-
 .logo {
 	
 	width: 20px;
 	height: 20px;
 	background-color: transparent;
-	margin-left: 20px;
 	
 }
 
@@ -77,7 +73,6 @@ b {
 	color: #535252;
 }
 
-/*back and next button*/
 .back {
 	border: 1px solid #00C590;
 	color: #00C590;
@@ -85,6 +80,7 @@ b {
 	padding: 10px 20px;
 	margin-left:40% 340%00px;
 	font-size: 20px;
+
   }
 
 .next {
@@ -101,9 +97,22 @@ b {
 	padding:0px;
     margin:auto;
     width:100%;
-    /*border:1px solid red;*/
+    border:none;
 }
 
+.next:hover{
+	color: #137d51;
+	border: 1px solid #13754c;
+}
+
+.back:hover {
+	color: #137d51;
+	border: 1px solid #13754c;
+}
+
+.btns:hover {
+	color: #137d51;
+}
 
 /*
 .next {
@@ -148,5 +157,35 @@ b {
 	height: 20%;
 	border: 1px red;
 	text-align: center;
+}
+
+/* questionare pop up alert for the last page*/
+.alert {
+	margin-left: 25%;
+	background-color: transparent;
+	color: #23de90;
+	border: 1px solid none;
+	transition: 0.6s;
+	width: 15%;
+}
+
+.alert:hover {
+	color: #137d51;
+}
+
+.closebtn {
+	margin-left: 15px;
+    color:  grey;
+	font-weight: bold;
+	float: right;
+    font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+	margin-left: 20%
+}
+
+.closebtn:hover {
+	color: red;
 }
 
