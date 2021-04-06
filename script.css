@@ -102,6 +102,8 @@ b {
 
 .color_btn {
 	color: #23de90;
+	transition: 1s all ease;
+
 }
 
 .color_btn:hover {
@@ -190,6 +192,8 @@ b {
 
 .info:hover {
 	color:  #137d51;
+	transition: 1s all ease;
+
 }
 
 .closebtn {
@@ -200,8 +204,8 @@ b {
     font-size: 22px;
 	line-height: 20px;
 	cursor: pointer;
-	transition: 0.4s;
-	margin-left: 20%
+	transition: 1 all ease;
+	margin-left: 20%;
 }
 
 .closebtn:hover {
