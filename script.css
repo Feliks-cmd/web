@@ -100,6 +100,14 @@ b {
     border:none;
 }
 
+.color_btn {
+	color: #23de90;
+}
+
+.color_btn:hover {
+	color: #137d51;
+}
+
 .next:hover{
 	color: #137d51;
 	border: 1px solid #13754c;
