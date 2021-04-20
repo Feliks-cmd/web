@@ -1,0 +1,180 @@
+nav {
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	
+}
+
+.space {
+	color: yellow;
+	margin-left: 30px;
+	margin-right: 30px;
+
+}
+
+.space:hover {
+	color: #5feb34;
+	transition: 0.5s all ease;
+}	
+
+.underline {
+	width: 70%;
+}
+
+body {
+	background-color: #030F19; /*#080F16;*/
+	margin: 0;
+	font-family: Verdana,sans-serif;	
+	background: url(back5.jpg);
+	border-top: 1px solid #031619;
+}
+
+h1 {
+	
+	color: #b4eb34;/*#FF3230;*/
+	text-align: 100%;
+	font-weight: lighter;
+	font-size: 5.1rem;
+	text-align: right;
+	margin-right: 40px
+}
+
+
+h2 {
+	color: rgba(255, 51, 48, 0.835);
+	font-size: 1.75rem;
+	text-align: 100%;
+	font-weight: lighter;
+
+}
+
+p {
+
+	color: #8e939c; 
+	font-size: 20px;
+	border: 1px  red;
+	background-color: #030F19; 
+	padding: 2%;
+	/*top: 30%;*/
+	box-shadow: 5px #030F19;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.info{
+	padding-left: 25%;
+	padding-right: 25%;
+	background-color: transparent;
+	margin-right: 30px; 
+	/*box-shadow: 0 0 20px #031619;*/
+}
+
+hr {
+	border-color: cyan;
+	margin-left: auto;
+	width: 55%;
+}
+
+
+.logo {
+	
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	margin-left: 3%
+
+	
+}
+
+.content {
+	padding-left: 25%;
+	padding-right: 25%;
+	background-color: #031619;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-right: 40px;
+	box-shadow: 0 0 50px black;
+
+}
+
+.block {
+	border: 1px  red;
+	background-color: #030F19; 
+	padding: 2%;
+	/*top: 30%;*/
+	box-shadow: 0 0 5px #030F19;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+
+.banner {
+	height: 200px;
+	width: 100%;
+	background: transparent;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.banner:hover {
+	box-shadow: 0 0 50px #030F19;
+	transition: 0.5s all ease;
+}
+
+.right {
+	height: 200px;
+	margin-left: 30%;
+	background: transparent;
+}
+
+.jpg {
+	height: 100px;
+	margin-right: 70%;
+	background: #030e19;
+	padding: 10px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 0 0 10px black;
+
+}
+
+.jpg:hover {
+	box-shadow: 0 0 50px #030F19;
+	transition: 0.5s all ease;
+}
+
+ul {
+	
+	color: #8e939c;
+	font-size: 1;
+}
+
+a {
+	color: #00C590;
+	font-size: 20px;
+	font-weight: 100;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #137d51;
+	transition: 0.5s all ease;
+}
+
+b {
+	color: #535252;
+}
+
+
+.container {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	margin:auto;
+	width: 30%;
+	height: 20%;
+	border: 1px red;
+	text-align: center;
+}
+
+
