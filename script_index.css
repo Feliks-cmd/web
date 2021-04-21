@@ -132,6 +132,7 @@ hr {
 	margin-right: 65%;
 	background: #030e19;
 	padding: 10px;
+	padding: 10px;
 	border-bottom-right-radius: 20px;
 	box-shadow: 0 0 10px black;
 
@@ -140,6 +141,7 @@ hr {
 .jpg:hover {
 	box-shadow: 0 0 50px #030F19;
 	transition: 0.5s all ease;
+	opacity: 1;
 }
 
 ul {
