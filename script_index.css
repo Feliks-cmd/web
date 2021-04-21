@@ -119,6 +119,7 @@ hr {
 .banner:hover {
 	box-shadow: 0 0 50px #030F19;
 	transition: 0.5s all ease;
+	border-left: 1px solid #030F19;
 }
 
 .right {
