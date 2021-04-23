@@ -138,6 +138,12 @@ strong {
     
 }
 
+.back:hover {
+	color: #137d51;
+	border: 1px solid #13754c;
+	transition: 0.5s all ease;
+
+}
 
 .next:hover{
 	color: #137d51;
@@ -147,13 +153,6 @@ strong {
 
 }
 
-.back:hover {
-	color: #137d51;
-	border: 1px solid #13754c
-	transition: 0.5s all ease;
-
-
-}
 
 .btns:hover {
 	color: #137d51;
