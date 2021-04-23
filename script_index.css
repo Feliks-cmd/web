@@ -1,14 +1,18 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap);
+/*@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');*/
+
 nav {
 	position: absolute;
 	right: 30px;
 	top: 30px;
+
 	
 }
 
 .space {
 	color: yellow;
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 35px;
+	margin-right: 35px;
 
 }
 
@@ -24,10 +28,15 @@ nav {
 body {
 	background-color: #030F19; /*#080F16;*/
 	margin: 0;
-	font-family: Verdana,sans-serif;	
+	/*font-family: Verdana,sans-serif;*/
+	/*font-family: 'Manrope';*/
+	font-family: 'Manrope', monospace;
 	background: url(back5.jpg);
+	/*background-size: contain;*/
 	border-top: 1px solid #031619;
 }
+
+
 
 h1 {
 	
@@ -36,7 +45,7 @@ h1 {
 	font-weight: lighter;
 	font-size: 5.1rem;
 	text-align: right;
-	margin-right: 40px
+	margin-right: 70px;
 }
 
 
@@ -51,7 +60,7 @@ h2 {
 p {
 
 	color: #8e939c; 
-	font-size: 20px;
+	font-size: 22px;
 	border: 1px  red;
 	background-color: #030F19; 
 	padding: 2%;
@@ -114,6 +123,8 @@ hr {
 	background: transparent;
 	border-bottom-left-radius: 20px;
 	border-top-right-radius: 20px;
+	border-left: none;
+
 }
 
 .banner:hover {
@@ -131,9 +142,10 @@ hr {
 .jpg {
 	height: 100px;
 	margin-right: 65%;
+	opacity: 0.8;
 	background: #030e19;
 	padding: 10px;
-	padding: 10px;
+	border-left: 0;
 	border-bottom-right-radius: 20px;
 	box-shadow: 0 0 10px black;
 
@@ -141,15 +153,10 @@ hr {
 
 .jpg:hover {
 	box-shadow: 0 0 50px #030F19;
-	transition: 0.5s all ease;
+	transition: 0.3s all ease;
 	opacity: 1;
 }
 
-ul {
-	
-	color: #8e939c;
-	font-size: 1;
-}
 
 a {
 	color: #00C590;
@@ -160,11 +167,7 @@ a {
 
 a:hover {
 	color: #137d51;
-	transition: 0.5s all ease;
-}
-
-b {
-	color: #535252;
+	transition: 0.3s all ease;
 }
 
 
