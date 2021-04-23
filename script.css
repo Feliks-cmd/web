@@ -137,26 +137,21 @@ strong {
     border:none;
     
 }
-/*
-.color_btn {
-	color: #23de90;
-}*/
 
-.color_btn:hover {
-	color: #137d51;
-	transition: 1s all ease;
-
-}
 
 .next:hover{
 	color: #137d51;
 	border: 1px solid #13754c;
+	transition: 0.5s all ease;
+
 
 }
 
 .back:hover {
 	color: #137d51;
-	border: 1px solid #13754c;
+	border: 1px solid #13754c
+	transition: 0.5s all ease;
+
 
 }
 
