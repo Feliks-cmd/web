@@ -71,10 +71,11 @@ p {
 }
 
 .info{
+	border: 1px  red;
 	padding-left: 25%;
 	padding-right: 25%;
 	background-color: transparent;
-	margin-right: 30px; 
+	margin-right: 40px; 
 	/*box-shadow: 0 0 20px #031619;*/
 }
 
@@ -96,6 +97,7 @@ hr {
 }
 
 .content {
+	border: 1px green;
 	padding-left: 25%;
 	padding-right: 25%;
 	background-color: #031619;
@@ -182,5 +184,6 @@ a:hover {
 	border: 1px red;
 	text-align: center;
 }
+
 
 
