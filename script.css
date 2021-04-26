@@ -1,28 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap);
 
- {
-	position: absolute;
-	right: 30px;
-	top: 30px;
-
-	
-}
-
-.space {
-	color: yellow;
-	margin-left: 30px;
-	margin-right: 30px;
-
-}
-
-.space:hover {
-	color: #5feb34;
-	transition: 0.5s all ease;
-}	
-
-.underline {
-	width: 70%;
-}
 
 body {
 	background-color: #030F19; /*#080F16;*/
@@ -137,6 +114,16 @@ strong {
     border:none;
     
 }
+/*
+.color_btn {
+	color: #23de90;
+}*/
+
+.color_btn:hover {
+	color: #137d51;
+	transition: 1s all ease;
+
+}
 
 .back:hover {
 	color: #137d51;
@@ -150,13 +137,8 @@ strong {
 	border: 1px solid #13754c;
 	transition: 0.5s all ease;
 
-
 }
 
-
-.btns:hover {
-	color: #137d51;
-}
 
 /*
 .next {
@@ -249,5 +231,6 @@ strong {
 .closebtn:hover {
 	color: red;
 }
+
 
 
