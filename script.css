@@ -26,6 +26,15 @@ h2 {
 
 }
 
+h3 {
+	color: #0b663e;/*rgba(255, 51, 48, 0.835);*/
+	font-size: 27px;
+	text-align: 100%;
+	font-weight: lighter;
+
+}
+
+
 p {
 
 	color: #8e939c; 
