@@ -1,0 +1,590 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta content="en-us" http-equiv="Content-Language" />
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+		<title>Digital Scamming</title>
+		<link rel="stylesheet" type="text/css" href="script.css">
+	<!--NEW! shortcut icon-->
+		<link rel="shortcut icon" href="title1.png" type="image">
+	<!--<style>
+	#quiz_container{position:relative;width:100%;height:auto;max-width:100%;margin:0 auto}.question-container{position:relative;width:100%;height:auto}.question-container .single-question-container{border:1px solid silver;padding:10px;border-radius:6px;margin-bottom:5px}.question-container .questionNum{float:left}.question-container .questionName{padding-left:25px}.question-container input[type=radio]{display:none}.question-container input[type=radio]+label{cursor:pointer;height:30px;position:relative;display:inline-block;top:0;bottom:0;left:0;border-radius:3px 0 0 3px;width:100%;height:100%;border:1px solid #d3d3d3;margin:2px;padding:5px 0}.question-container input[type=radio]+label:before{position:relative;display:inline-block;left:0;top:0;bottom:0;width:30px;height:30px;background:#d1d3d4;border-radius:3px 0 0 3px;border-radius:50%;margin-right:10px;content:'\00b7';text-align:center;color:#d1d3d4;font-size:76px;float:left;line-height: 30px;}.question-container input[type=radio]:hover+label:before{color:#fff}.question-container input[type=radio]:hover+label{color:#000000b0;background:#8080801a}.question-container input[type=radio]:disabled+label{cursor:default;background:#fff;color:#000}.question-container input[type=radio]:disabled+label:before{color:#fff}.question-container input[type=radio]:checked+label:before{color:#fff;background:#2196f3}.question-container input[type=radio].correct+label:after{color:#009688;content:'\2714';font-size:30px;position:absolute}.question-container input[type=radio].incorrect+label:after{content:'\274c'}.question-container input[type=checkbox]{display:none}.question-container input[type=checkbox]+label{cursor:pointer;height:30px;position:relative;display:inline-block;top:0;bottom:0;left:0;border-radius:3px 0 0 3px;width:100%;height:100%;border:1px solid #d3d3d3;margin:2px;padding:5px 0}.question-container input[type=checkbox]+label:before{position:relative;display:inline-block;left:0;top:0;bottom:0;width:30px;height:30px;background:#d1d3d4;border-radius:3px 0 0 3px;margin-right:10px;content:'\2714';text-align:center;color:#d1d3d4;font-size:20px;float:left}.question-container input[type=checkbox]:hover+label:before{color:#fff}.question-container input[type=checkbox]:hover+label{color:#000000b0;background:#8080801a}.question-container input[type=checkbox]:disabled+label{cursor:default;background:#fff;color:#000}.question-container input[type=checkbox]:disabled+label:before{color:#fff}.question-container input[type=checkbox]:checked+label:before{color:#fff;background:#2196f3}.question-container input[type=checkbox].correct+label:after{color:#009688;content:'\2714';font-size:30px;position:absolute}.question-container input[type=checkbox].incorrect+label:after{content:'\274c'}.question-container .next-button,.question-container .submit-button{background:#2196f3;color:#fff;padding:5px 32px;cursor:pointer;border:0}.question-container .next-button:hover,.question-container .submit-button:hover{background:#216ff3}.question-container .timer{float:right}
+	.auto-style13 {
+		font-family: serif;
+		font-size: medium;
+	}
+	.auto-style14 {
+		color: rgb(0, 0, 0);
+	}
+	.auto-style15 {
+		font-family: SourceSansPro, sans-serif;
+		font-size: 17px;
+		color: #111111;
+		letter-spacing: normal;
+		background-color: #FFFFFF;
+	}
+	.auto-style16 {
+		text-align: center;
+		font-size: small;
+	}
+	#quiz_container0{position:relative;width:100%;height:auto;max-width:100%;margin:0 auto}
+	</style>
+	<style>
+	.button {
+	display: block;
+	margin-top: 10px;
+	}
+	.auto-style8 {
+		text-align: center;
+	}
+	.auto-style9 {
+		border-style: solid;
+		border-width: 1px;
+		padding: 1px 4px;
+		text-align: left;
+	}
+	.auto-style10 {
+		text-align: left;
+	}
+	.auto-style11 {
+		font-family: Roboto, sans-serif;
+		font-size: 16px;
+		letter-spacing: normal;
+	}
+	.auto-style12 {
+		font-family: Roboto, sans-serif;
+		font-size: 16px;
+		letter-spacing: normal;
+		text-align: left;
+	}
+	</style><style>
+	#quiz_container{position:relative;width:100%;height:auto;max-width:100%;margin:0 auto}.question-container{position:relative;width:100%;height:auto}.question-container .single-question-container{border:1px solid silver;padding:10px;border-radius:6px;margin-bottom:5px}.question-container .questionNum{float:left}.question-container .questionName{padding-left:25px}.question-container input[type=radio]{display:none}.question-container input[type=radio]+label{cursor:pointer;height:30px;position:relative;display:inline-block;top:0;bottom:0;left:0;border-radius:3px 0 0 3px;width:100%;height:100%;border:1px solid #d3d3d3;margin:2px;padding:5px 0}.question-container input[type=radio]+label:before{position:relative;display:inline-block;left:0;top:0;bottom:0;width:30px;height:30px;background:#d1d3d4;border-radius:3px 0 0 3px;border-radius:50%;margin-right:10px;content:'\00b7';text-align:center;color:#d1d3d4;font-size:76px;float:left;line-height: 30px;}.question-container input[type=radio]:hover+label:before{color:#fff}.question-container input[type=radio]:hover+label{color:#000000b0;background:#8080801a}.question-container input[type=radio]:disabled+label{cursor:default;background:#fff;color:#000}.question-container input[type=radio]:disabled+label:before{color:#fff}.question-container input[type=radio]:checked+label:before{color:#fff;background:#2196f3}.question-container input[type=radio].correct+label:after{color:#009688;content:'\2714';font-size:30px;position:absolute}.question-container input[type=radio].incorrect+label:after{content:'\274c'}.question-container input[type=checkbox]{display:none}.question-container input[type=checkbox]+label{cursor:pointer;height:30px;position:relative;display:inline-block;top:0;bottom:0;left:0;border-radius:3px 0 0 3px;width:100%;height:100%;border:1px solid #d3d3d3;margin:2px;padding:5px 0}.question-container input[type=checkbox]+label:before{position:relative;display:inline-block;left:0;top:0;bottom:0;width:30px;height:30px;background:#d1d3d4;border-radius:3px 0 0 3px;margin-right:10px;content:'\2714';text-align:center;color:#d1d3d4;font-size:20px;float:left}.question-container input[type=checkbox]:hover+label:before{color:#fff}.question-container input[type=checkbox]:hover+label{color:#000000b0;background:#8080801a}.question-container input[type=checkbox]:disabled+label{cursor:default;background:#fff;color:#000}.question-container input[type=checkbox]:disabled+label:before{color:#fff}.question-container input[type=checkbox]:checked+label:before{color:#fff;background:#2196f3}.question-container input[type=checkbox].correct+label:after{color:#009688;content:'\2714';font-size:30px;position:absolute}.question-container input[type=checkbox].incorrect+label:after{content:'\274c'}.question-container .next-button,.question-container .submit-button{background:#2196f3;color:#fff;padding:5px 32px;cursor:pointer;border:0}.question-container .next-button:hover,.question-container .submit-button:hover{background:#216ff3}.question-container .timer{float:right}
+	#quiz_container0{position:relative;width:100%;height:auto;max-width:100%;margin:0 auto}
+			</style>
+	<meta content="en-us" http-equiv="Content-Language" />
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>Digital Scamming
+	</title>
+
+	<style type="text/css">
+	.auto-style4 {
+		margin-left: 40px;
+		text-align: center;
+		text-decoration: underline;
+	}
+	.auto-style5 {
+		color: #F10F0F;
+	}
+	.auto-style6 {
+		border-style: solid;
+		border-width: 1px;
+		padding: 1px 4px;
+	}
+	</style>-->
+	</head>
+
+	<body>
+
+<!--NEW! website logo-->
+		<div class="logo">
+			<a href="index.html"><img src="logo4.png" alt="WebSec"></a> 
+		</div>
+
+		<hr>
+
+<!--NEW! content container-->
+		
+		<div class="content"><!--the closing div tag is at the bottom just above the footer tag-->
+		<div class="auto-style10">
+
+		<h1>Digital Scamming</h1>
+		<p>Scamming can happen to anyone, anywhere and at anytime. Even the slip of 
+		something as slight as your instagram account can lead to billions of dollars 
+		being poured down the drains. Take the incedent where as stated in
+		<a href="https://ciphertrace.com/wp-content/uploads/2019/08/CipherTrace-Cryptocurrency-Anti-Money-Laundering-Report-2019-Q2-1.pdf">
+		CipherTrace</a>, two brothers managed to scam nearly 1.5million dollars out of 
+		the general public.</p>
+
+		<p><em>&nbsp;"Unsuspecting users would sign in to the fake account, giving the 
+		brothers access to account details and private keys to the real sites. Links to 
+		their faux website were distributed over a variety of platforms and chatrooms 
+		frequented by cryptocurrency traders."</em></p>
+
+		<p>And even though the two were caught eventually, some people are able to take 
+		advantage of the slight animity the internet provides and escape with a smaller 
+		(but not significantly so) amount of money.&nbsp; As we continue to spend more 
+		and more time online as the technological world develops rapidly, unless you 
+		have a couple million dollars to spare, it's best you ensure you are able to 
+		efficiently protect yourself from such scammers.</p>
+
+		<p>I will be covering some of the most prominent acts of digital scamming in 
+		this website: Phishing, Pharming and Form Jacking.</p>
+
+		<p>&nbsp;</p>
+		<h1>Phising</h2>
+		<p>Phishing. I'm sure that as you read the word you'll notice that it sounds 
+		quite familiar. Ever heard of the word fishing? Well, I'm sure at least at one 
+		point in your life you've come across it. In all honesty, the two terms are 
+		almost as alike as they come off.</p>
+
+		<p><img alt="" height="108" src="../Fishing.jpg" width="163" /></p>
+
+		<p class="auto-style10">To understand the term phishing, let's look at it's counterpart fishing. </p>
+
+		<p class="auto-style10">What do you do when you go fishing? On a simple level we can descrbe it like 
+		this,</p>
+
+		<ol>
+			<li class="auto-style10">Get some bait, let's say worms for now. </li>
+			<li class="auto-style10">Tie the worms to the hook and throw it out into whatever body of water.</li>
+			<li class="auto-style10">Wait for a fish or two to latch on to the hook.</li>
+			<li class="auto-style10">When you see a fish or feel a tug on your fishing thing, reel the fish 
+			in as quickly as possible and store it somewhere else.</li>
+		</ol>
+
+		<p class="auto-style10">Just as this works in fishing, phishers have a similar proccess.</p>
+
+		<ol>
+			<li style="color: #1b9e65 ">Get some bait.</li>
+		
+
+		<p class="auto-style10">Now, worms for humans can be alll~ sorts of things. Different people want 
+		different things. This can be porn or explicit images, a promise of a hefty sum 
+		of money or a false download to an expensive game riddled with a few if not only 
+		viruses. These are some of the more obvious examples and can easily be drawn 
+		out. </p>
+
+		<div class="auto-style6">
+			<p class="auto-style10">TO AVOID: you may have heard the phrase "if it sounds too good to be 
+			true, it is." here and there and this is <span class="auto-style5">exactly</span> 
+			what you should do. Is it really that believable that someone is willing to 
+			give you a billion shillings if you just click on this link, call this 
+			number or enter your credit card information? I'll let you answer that 
+			yourself, but if you do come across someone making irrational promsises, 
+			it's always best to be skeptical. If a random email is promising you nude 
+			images of your favorite celeb, remember that these people have credited 
+			publicity factions working to make sure they can maintain their public image 
+			(and I'm sure there's other ways to get this kinda content). If it's a 
+			download, make sure it's credited by at least a few liable sources.</p>
+
+			<p class="auto-style9">EXAMPLE: If it's from a phone number posing as 
+			something such as safaricom, and the number is +254---&nbsp; then its false.
+			</p>
+		</div>
+
+	
+			<li style="color: #1b9e65 ">tie the worms to the hook and throw this into the water</li>
+		
+		
+
+		<p class="auto-style10">The scammer will uses applications such as message, emails (personal and 
+		corporate). In this senario, in worms steadthey will leave a link or promise for 
+		the enlisted item in the email. This will then be forwarded to a large amount of 
+		people with little attention to who in particular it is. Scammers are unlikely 
+		to specifically target you unless you have a promisingly large amount of money. 
+		So if you see some</p>
+		<p class="auto-style10">A couple of other hard(er) to spot instances are false websites and 
+		(seemingly) wrong participant messages.</p>
+		<p class="auto-style10">Let's start with false websites. Someone sent you an email saying that your 
+		account has been breached and you need to change your passcode immediately. Or you were 
+		browsing the web and came across the link to facebook and thought to catch up 
+		while you were at it. These can be dangerous because if you do insert your 
+		password, they can use it to not only acess your account but try it on all of 
+		your other different accounts.</p>
+		<p class="auto-style10">(see this video on setting a proper password: </p>
+		<iframe width="420" height="400" src="https://www.youtube.com/watch?v=zPhIWme_C5c">
+		</iframe>
+		)<p class="auto-style10">and here is an example of how to spot the faux websites.</p>
+		<table style="width: 100%">
+			<tr>
+				<td class="auto-style10">real</td>
+				<td style="width: 747px" class="auto-style10">fake</td>
+			</tr>
+			<tr>
+				<td class="auto-style10">
+				<img alt="" height="226" src="../facebook4REAL.png" width="343" /></td>
+				<td style="width: 747px" class="auto-style10">
+				<img alt="" height="266" src="../FACEBOOK4fake.png" width="375" /></td>
+			</tr>
+		</table>
+		<p class="auto-style9">This is typically through use of the html code you can 
+		find by clicking ctrl+shift+i or a variation of the sort depending on your 
+		computer. If you do this on any website, you will find all of the data that 
+		makes this website operate the same way as the original. It's not as simple as a 
+		mere copy paste situation but if you try hard enough you can get all the 
+		necessary information to make similar looking website as the one you are 
+		attempting to mimic. However since making an exact copy down to the bone is 
+		incredibly time consuming and not worth while, typically the scammer will look 
+		for a simpler way out and end up with a similar but variyingly different looking 
+		website as seen above.</p>
+
+		<p class="auto-style10"> Here's another senario. You're checking your emails and you see an email 
+		from the president addressed to a random name with a link to the winning lottery 
+		ticket. Firstly, why would the president have the winning lottery ticket? Oh, 
+		because they're the president! You think of how lucky you are and immediatly 
+		click the link. And instead of a number the email downloads something. It might 
+		even get you to a screen with a false lottery number if the hackers a real 
+		tryhard. Sometimes it may not be your president but your boss sending in this 
+		months promotion list to a head figure. Lucky you! This situation is a bit more 
+		dangerous because in this instance you and people in your field are being 
+		targeted.</p>
+		<p class="auto-style10">
+		<img alt="See the source image" height="389" src="https://i2.wp.com/dylan.tweney.com/wp-content/uploads/2017/10/Screen-Shot-2017-10-25-at-9.40.55-PM.png" style="float: right" width="515" /></p>
+		<p class="auto-style10"> You may think that this may be a great situation and quickly c However that 
+		little download it made as it showed you what you were asking for was... A 
+		virus, yay! Now all your private information, passwords, credit card information 
+		and various other types of content stored within are accessible to whoever 
+		actually sent you this email. Not so lucky any more anyways. The numbers they 
+		gave you are more than likely entirely wrong as well. 
+
+		</p>
+		<p class="auto-style10"> Check the actual email adress, if it isn't the same one as the person 
+		promised, it's not the president. If you ever come across an email like this, 
+		the smartest thing you can do is simply not engage.</p>
+		<p class="auto-style10"> &nbsp;</p>
+		<p class="auto-style10"> other examples:</p>
+			<img alt="See the source image" height="353" src="https://th.bing.com/th/id/Rf9d65096b5a7584bfd1f89deeaf797e5?rik=UfMZR60tsDRQwg&amp;riu=http%3a%2f%2flts.lehigh.edu%2fsites%2flts.lehigh.edu%2ffiles%2fphishing20140724.png&amp;ehk=SyYWc0sr7tjisko5qUxNeDGdLEAE7xZ%2fXkJMt0RIZEY%3d&amp;risl=&amp;pid=ImgRaw" style="float: right" width="430" /><div class="auto-style8">
+			</div>
+		<p class="auto-style10"> 
+		<img alt="Good Samaritan email scam MailGuard example1.jpg" height="301" src="https://www.mailguard.com.au/hs-fs/hubfs/Good%20Samaritan%20email%20scam%20MailGuard%20example1.jpg?t=1499397683098&amp;width=750&amp;height=483&amp;name=Good%20Samaritan%20email%20scam%20MailGuard%20example1.jpg" width="405" /></p>
+
+
+		<li style="color: #1b9e65">wait for a fish or two to latch on.</li>
+		<p class="auto-style10"> Like this your scammer probably didn't just target you. Most of the time, 
+		instead of persistantly messaging only you, they'll wait until someone responds 
+		o their message. This is why ignoring typical spam messages is best. They'll 
+		forget about you if you forget about them.</p>
+
+
+		<li style="color: #1b9e65">When you feel a tug or see a fish, quickly pull it up.</li>
+		<p class="auto-style10"> Scammers aren't interested in those who are uninterested in them. However, 
+		if you start to seem interested and they can figure out a way to get you to 
+		follow through with the purchase or doing as they ask, they will. This can be 
+		false comments they added at the end of the download website claiming that the 
+		download works perfectly which are fresh and from different users, but you might 
+		not be able to comment yourself. Or attatching another link to a message you 
+		sent asking them a question. Where you can, just don't engage.&nbsp;</p>
+	</ol><br>
+
+		<h2 class="auto-style10"> HAVE YOU BEEN PHISHED?</h2>
+		<p class="auto-style10">YES! I have been phished!</p>
+		<ol>
+			<li class="auto-style10">Reset all your passwords that have been impacted by this, preferablly 
+			with one of the safer ones.</li>
+			<li class="auto-style10">Contact the *actual* place which supposedly messaged you to inform them 
+			what's going on and ask if there's been any suspcious activity of late.</li>
+			<li class="auto-style10">Scan your device for viruses.</li>
+		</ol>
+		<p class="auto-style10">NO! I have not been phished. (or you're clean of the past phishing attempt)<br />
+		</p>
+		<ol>
+			<li class="auto-style10">Invest in an antivirus </li>
+			<li class="auto-style10">Make sure you have your spam settings to your benifit. It may be a 
+			hasstle seeing as some actually important information may go there, but you 
+			can still access this later if so you wish.</li>
+			<li class="auto-style10">Don't fall for any future scams that are fraudulently lying to you.</li>
+		</ol>
+		<p class="auto-style10">&nbsp;</p>
+			<p class="auto-style10">&nbsp;</p>
+
+
+
+		<h2 class="auto-style10">Pharming </h2>
+		<p class="auto-style10">Pharming is a derivative of phishing nicknamed this way by hackers. It is 
+		shockingly similar to what we have discussed before. You could think of it as 
+		bait-less phishing if you wish.</p>
+
+		<p class="auto-style10">Pharmers set up multiple farms throughout the internet and unlike phishing 
+		where a suspicious link is necessary to be sent in order for the hacker to gain 
+		acess to the users login credentials, pharming is done by directly tapping into 
+		the dns server in order to redirect the user to another website. Just like the 
+		false websites but with no necessary interaction from the user.</p>
+
+		<p class="auto-style10">Unlike Phishing which is heavily dependant on the naivity of the victim and 
+		persuasiveness of the attacker, Pharming can occur without any implantation of 
+		malware and go unrecognized for a significantly longer period. Though the 
+		results aren't dissimilar. Pharming is more like phishing without the bait.</p>
+
+		<p class="auto-style10">In one of the most undesirable situations known as DNS poisoning or system 
+		poisoning, the Pharmer will hack&nbsp; Pharmers can do this by sending you to an identical looking bank website from 
+		the bank website you were on and in the brief period of time before you are able 
+		to identify that you are no longer on your original site they can transfer 
+		themselves a hefty sum of money and/or purchase multiple days after the event. 
+		Even if your money is given back by the bank, the period of retreval can last 
+		longer than desired.<img alt="See the source image" height="206" src="../home-routers-hacking-on-large-scale.png" style="float: right" width="359" /><div class="auto-style8">
+		</div>
+		</p>
+		<p class="auto-style10">In one of the most undesirable situations known as DNS poisoning or system 
+		poisoning, the Pharmer will hack into not the actual device but rather the dns 
+		server made possible throught the weakness of home network systems.&nbsp; Pharmers can 
+		send you to an identical looking bank website from 
+		the bank website you were on and in the brief period of time before you are 
+		unable to identify that you are no longer on your original site they can steal 
+		your login credentials and transfer themselves a hefty sum and/or purchase 
+		whatever they would like. This transition can be made through an error tab 
+		popping up before it switches sights to distract you. </p>
+		
+		<p>
+		Pharming utilizes the sequence of letters that form an 
+		Internet address that converts into an IP address to carry out the malicious 
+		activities.</p>
+
+		<p>
+		<img alt="What is Pharming" class="img-responsive aligncenter" height="150" src="https://antivirus.comodo.com/blog/wp-content/uploads/2018/10/pharming.png" style="border-style: none; border-color: inherit; border-width: 0px; margin: 0px; padding: 0px; vertical-align: baseline; float: right;" width="325" />In 
+		order to gain access, the hacker secretly installs a Trojan or Virus on a user’s 
+		computer which quietly replaces the computer’s hosts file to direct traffic 
+		toward a fake website instead.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		-<a href="https://antivirus.comodo.com/blog/comodo-news/what-is-pharming/?af=7592">comodo.com</a></p>
+		<p>
+		&nbsp;</p>
+		<h3 class="auto-style10">How do you protect yourself from such attacks?<br />
+		here are a few ways.</h3>
+		<ol>
+			<li class="auto-style10">
+			<img alt="Image result for https and http" src="https://th.bing.com/th/id/OIP.QYhxHNX1ZaRqyPQm3OywUQHaEK?w=323&amp;h=180&amp;c=7&amp;o=5&amp;pid=1.7" style="float: right" />Invest 
+			in an anti-virus to protect yourself from malware.</li>
+			<li class="auto-style10">Whenever visiting an unfamiliar or sketchy website, check the search bar 
+			to ensure that it is https not http (the s standing for secure). When on 
+			these be careful or avoid them entirely.</li>
+		</ol>
+
+
+
+
+		<p class="auto-style10">You can't completely evade these attacks but the stated action will make sure 
+		that you are several times more too secure.</p>
+
+		<h2 class="auto-style10">&nbsp;</h2>
+			<p class="auto-style10">&nbsp;</p>
+			<p class="auto-style10">&nbsp;</p>
+
+
+
+
+		<h2 class="auto-style10">Form Jacking</h2>
+		<p class="auto-style10">
+		<p>
+		Formjacking is a type of cyber attack where hackers inject malicious JavaScript 
+		code into a webpage form–most often a payment page form. -
+		<a href="https://www.securitymetrics.com/blog/what-formjacking">
+		securitymetrics.com</a></p>
+
+		<p class="auto-style10">
+		<img alt="Image result for hacker silhouette" src="https://th.bing.com/th/id/OIP.SlV2lcTCf1qyzXAT8bGBegAAAA?w=154&amp;h=180&amp;c=7&amp;o=5&amp;pid=1.7" style="float: right" /></p>
+		<p>&nbsp;Form Jacking can be incredibly dangerous because it's 
+		relitively easy to make and set in place but often goes unnoticed for at least a 
+		couple of weeks. The hacker uses the javascript in order to copy out the forms 
+		whcih store information such as credit card numbers and passwords. This is a bad 
+		situation but it can be made worse in the situation that they have access to the 
+		server code of the website, this is when however they were made able to 
+		collect this information becomes the issue.</p>
+
+		<p class="auto-style12">This type of information is often sold on the dark web 
+		where your credit/debit card information can be acessed and stolen. Things like 
+		identy fraud can also occur quite easily due to this. Since this type of 
+		transaction can go unheard of for a while, you risk losing a incredible sum of 
+		money rapidly that may not even be restored.</p>
+		<p class="auto-style12">&nbsp;</p>
+
+
+		<h3 class="auto-style12">So in such instances how do we protect ourselves? </h3>
+		<img alt="Image result for insecure website" src="https://th.bing.com/th/id/OIP.zTKPvBBfDUiEkT9j-2maDAHaEu?w=265&amp;h=180&amp;c=7&amp;o=5&amp;pid=1.7" style="float: right" />
+
+		<p class="auto-style12">
+		Formjacking is one of the harder aspects to control because it's so tricky to 
+		spot. But there are things we can to avoid these kinds of situation.</p>
+		<ol>
+			<li>
+			<p class="auto-style12">Moniter the amount of money going in and out of your 
+			accounts at least monthly.</p>
+			</li>
+			<li>
+			<p class="auto-style12">Consider a security freeze to ensure that hackers are 
+			unable to open other accounts to your name.</p>
+			</li>
+			<li>
+			<p class="auto-style12">Avoid making purchases from insecure websites. These 
+			are easier to form jack.</p>
+			</li>
+			<li>
+			<p class="auto-style12">Don't click on unfamiliar and sketchy looking 
+			customer shopping adds.</p>
+			</li>
+			<li>
+			<p class="auto-style11">And as I've stated in each and every way to protect 
+			yourself, invest in an antivirus!! (kapersky is a very good option).<img alt="See the source image" src="https://dakarstock.com/wp-content/uploads/2020/03/kaspersky-anti-virus-4-pc.jpg" /></p>
+			</li>
+		</ol><br>
+
+		<h2 class="auto-style10">Think you've got it all down? Let's test to see whether you can consider 
+		yourself scamming free.</h2>
+		<br>
+
+		<style>
+		#quiz_container{position:relative;width:100%;height:auto;max-width:100%;margin:0 auto}.question-container{position:relative;width:100%;height:auto}.question-container .single-question-container{border:1px solid teal;padding:15px;border-radius:10px;margin-bottom:5px}.question-container .questionNum{float:left}.question-container .questionName{padding-left:25px; margin-bottom: 10px; color:grey; font-size: 18px }.question-container input[type=radio]{display:none}.question-container input[type=radio]+label{cursor:pointer;height:30px;position:relative;display:inline-block;top:0;bottom:0;left:0;border-radius:7px;width:100%;height:100%;border:1px solid teal;margin:2px;padding:5px 0; color: #1b9e65;}.question-container input[type=radio]+label:before{position:relative;display:inline-block;left:3px;top:0;bottom:0;width:30px;height:30px;background:#052226; border:1px #1b9e65; border-radius:3px 0 0 3px;border-radius:50%;margin-right:10px;content:'\00b7';text-align:center;color:#1b9e65;font-size:76px;float:left;line-height: 30px;}.question-container input[type=radio]:hover+label:before{color:#0b663e;margin-bottom: 4px;}.question-container input[type=radio]:hover+label{color:#0b663e;background:transparent;border: 1px solid #053620; margin-bottom: 1px;}.question-container input[type=radio]:disabled+label{cursor:default;background:#fff;color:#000}.question-container input[type=radio]:disabled+label:before{color:#fff}.question-container input[type=radio]:checked+label:before{color:#fff;background:#2196f3}.question-container input[type=radio].correct+label:after{color:#009688;content:'\2714';font-size:30px;position:absolute}.question-container input[type=radio].incorrect+label:after{content:'\274c'}.question-container input[type=checkbox]{display:none}.question-container input[type=checkbox]+label{cursor:pointer;height:30px;position:relative;display:inline-block;top:0;bottom:0;left:0;border-radius:3px 0 0 3px;width:100%;height:100%;border:1px solid #d3d3d3;margin:2px;padding:5px 0}.question-container input[type=checkbox]+label:before{position:relative;display:inline-block;left:0;top:0;bottom:0;width:30px;height:30px;background:#d1d3d4;border-radius:3px 0 0 3px;margin-right:10px;content:'\2714';text-align:center;color:#d1d3d4;font-size:20px;float:left}.question-container input[type=checkbox]:hover+label:before{color:#fff}.question-container input[type=checkbox]:hover+label{color:#000000b0;background:#8080801a}.question-container input[type=checkbox]:disabled+label{cursor:default;background:#fff;color:#000}.question-container input[type=checkbox]:disabled+label:before{color:#fff}.question-container input[type=checkbox]:checked+label:before{color:#fff;background:#2196f3}.question-container input[type=checkbox].correct+label:after{color:#009688;content:'\2714';font-size:30px;position:absolute}.question-container input[type=checkbox].incorrect+label:after{content:'\274c'}.question-container .next-button,.question-container .submit-button{background:transparent;color:#00C590;font-size:18px; margin-top: 10px; padding:5px 32px;cursor:pointer;border:1px solid #00C590}.question-container .next-button:hover,.question-container .submit-button:hover{color: #137d51;border: 1px solid #137d51;transition: 0.5s all ease;border-radius:1px;}.question-container .timer{float:right}
+		.auto-style17 {
+			font-size: xx-small;
+		}
+		</style>
+
+		<div id='quiz_container'></div>
+		<script>
+		var _0x1e05=['\x20/><label\x20for=\x27checkbox','value','Explanation:\x20','explanation','Quiz','score','currentQuestion','object','hasOwnProperty','elementId','questionContainer','question-container','submitPrnt','button','submitButton','Submit','addEventListener','click','bind','showAllQuestions','setAttribute','display:\x20none;','nextButton','Next','style','display:\x20block;','showTimer','timer','00:00:00','setSeconds','substr','getElementById','myLink','fontSize','textAlign','center','lastChild','remove','disabled','checked','right','incorrect','correct','timerInterval','Your\x20Score:\x20','createElement','div','className','question','span','questionNum','innerHTML','appendChild','questionName','options','quizQuestions','getElementsByClassName','single-question-container','radio','type','length','call','checkbox','option','<input\x20type=\x27radio\x27\x20id=\x27radio','\x27\x20name=\x27radio','\x27\x20value=','\x20/><label\x20for=\x27radio','</label>','\x27\x20name=\x27checkbox'];(function(_0x4bffaa,_0xaaefc5){var _0x1025a5=function(_0x3bdce3){while(--_0x3bdce3){_0x4bffaa['push'](_0x4bffaa['shift']());}};_0x1025a5(++_0xaaefc5);}(_0x1e05,0xb9));var _0x5730=function(_0x2c9e9d,_0x51e73f){_0x2c9e9d=_0x2c9e9d-0x0;var _0x462ef3=_0x1e05[_0x2c9e9d];return _0x462ef3;};(function(){function _0x167a84(_0x2e5740){var _0x364c2a=document[_0x5730('0x0')](_0x5730('0x1'));_0x364c2a[_0x5730('0x2')]=_0x5730('0x3');var _0x5a497d=document['createElement'](_0x5730('0x4'));_0x5a497d[_0x5730('0x2')]=_0x5730('0x5'),_0x5a497d[_0x5730('0x6')]=_0x2e5740+0x1+'.',_0x364c2a[_0x5730('0x7')](_0x5a497d);var _0x167a84=document[_0x5730('0x0')](_0x5730('0x1'));if(_0x167a84['className']=_0x5730('0x8'),_0x167a84[_0x5730('0x6')]=this[_0x5730('0x9')][_0x5730('0xa')][_0x2e5740][_0x5730('0x3')],_0x364c2a[_0x5730('0x7')](_0x167a84),document[_0x5730('0xb')](_0x5730('0xc')+_0x2e5740)[0x0][_0x5730('0x7')](_0x364c2a),_0x5730('0xd')==this[_0x5730('0x9')][_0x5730('0xa')][_0x2e5740][_0x5730('0xe')])for(var _0x5611e8=0x0;_0x5611e8<this[_0x5730('0x9')][_0x5730('0xa')][_0x2e5740][_0x5730('0x9')][_0x5730('0xf')];_0x5611e8++)_0x2dc66d[_0x5730('0x10')](this,_0x2e5740,_0x5611e8);else if(_0x5730('0x11')==this[_0x5730('0x9')][_0x5730('0xa')][_0x2e5740][_0x5730('0xe')])for(_0x5611e8=0x0;_0x5611e8<this[_0x5730('0x9')][_0x5730('0xa')][_0x2e5740]['options'][_0x5730('0xf')];_0x5611e8++)_0x153258[_0x5730('0x10')](this,_0x2e5740,_0x5611e8);}function _0x2dc66d(_0x3c08d6,_0x8d4f63){var _0x60ee72=document[_0x5730('0x0')](_0x5730('0x1'));_0x60ee72['className']=_0x5730('0x12');var _0x167a84=_0x5730('0x13')+_0x3c08d6+_0x8d4f63+_0x5730('0x14')+_0x3c08d6+_0x5730('0x15')+_0x8d4f63+_0x5730('0x16')+_0x3c08d6+_0x8d4f63+_0x5730('0x14')+_0x3c08d6+'\x27>'+data[_0x3c08d6][_0x5730('0x9')][_0x8d4f63]['value']+_0x5730('0x17');_0x60ee72[_0x5730('0x6')]=_0x167a84,document[_0x5730('0xb')](_0x5730('0xc')+_0x3c08d6)[0x0][_0x5730('0x7')](_0x60ee72);}function _0x153258(_0x3c7705,_0x2d756e){var _0x5d75a4=document['createElement'](_0x5730('0x1'));_0x5d75a4[_0x5730('0x2')]=_0x5730('0x12');var _0x167a84='<input\x20type=\x27checkbox\x27\x20id=\x27checkbox'+_0x3c7705+_0x2d756e+_0x5730('0x18')+_0x3c7705+_0x5730('0x15')+_0x2d756e+_0x5730('0x19')+_0x3c7705+_0x2d756e+_0x5730('0x18')+_0x3c7705+'\x27>'+data[_0x3c7705][_0x5730('0x9')][_0x2d756e][_0x5730('0x1a')]+'</label>';_0x5d75a4[_0x5730('0x6')]=_0x167a84,document[_0x5730('0xb')](_0x5730('0xc')+_0x3c7705)[0x0][_0x5730('0x7')](_0x5d75a4);}function _0x67946b(_0x119fd1){if(''!=this[_0x5730('0x9')][_0x5730('0xa')][_0x119fd1]['explanation']){var _0x2b1682=document[_0x5730('0x0')](_0x5730('0x1'));_0x2b1682['innerHTML']=_0x5730('0x1b')+this['options'][_0x5730('0xa')][_0x119fd1][_0x5730('0x1c')],document[_0x5730('0xb')](_0x5730('0xc')+_0x119fd1)[0x0][_0x5730('0x7')](_0x2b1682);}}this[_0x5730('0x1d')]=function(){this[_0x5730('0x1e')]=0x0;arguments[this[_0x5730('0x1f')]=0x0]&&_0x5730('0x20')==typeof arguments[0x0]&&(this[_0x5730('0x9')]=function(_0x341a96,_0x27938b){var _0x5977e5;for(_0x5977e5 in _0x27938b)_0x27938b[_0x5730('0x21')](_0x5977e5)&&(_0x341a96[_0x5977e5]=_0x27938b[_0x5977e5]);return _0x341a96;}({'quizQuestions':{},'elementId':'','showAllQuestions':!0x0,'showTimer':!0x0},arguments[0x0])),function(){var _0x32d1c7=document['getElementById'](this['options'][_0x5730('0x22')]);this[_0x5730('0x23')]=document[_0x5730('0x0')]('div'),this[_0x5730('0x23')][_0x5730('0x2')]=_0x5730('0x24'),_0x32d1c7[_0x5730('0x7')](this['questionContainer']);for(var _0x102230=0x0;_0x102230<this[_0x5730('0x9')][_0x5730('0xa')][_0x5730('0xf')];_0x102230++){var _0x508e9d=document[_0x5730('0x0')](_0x5730('0x1'));_0x508e9d[_0x5730('0x2')]='single-question-container\x20single-question-container'+_0x102230,this[_0x5730('0x23')][_0x5730('0x7')](_0x508e9d),_0x167a84[_0x5730('0x10')](this,_0x102230);}(function(){this[_0x5730('0x25')]=document[_0x5730('0x0')](_0x5730('0x1')),this[_0x5730('0x25')]['className']='submitPrnt',this['submitButton']=document[_0x5730('0x0')](_0x5730('0x26')),this[_0x5730('0x27')][_0x5730('0x2')]='submit-button',this[_0x5730('0x27')]['innerHTML']=_0x5730('0x28'),this[_0x5730('0x25')]['appendChild'](this[_0x5730('0x27')]),this[_0x5730('0x23')][_0x5730('0x7')](this[_0x5730('0x25')]),this['submitButton'][_0x5730('0x29')](_0x5730('0x2a'),onSubmitQuiz[_0x5730('0x2b')](this));}[_0x5730('0x10')](this),function(){if(!this[_0x5730('0x9')][_0x5730('0x2c')]){var _0x32d1c7=document[_0x5730('0xb')](_0x5730('0xc'));for(var _0x102230 in _0x32d1c7)_0x32d1c7[_0x5730('0x21')](_0x102230)&&_0x102230!=this[_0x5730('0x1f')]&&_0x32d1c7[_0x102230][_0x5730('0x2d')]('style',_0x5730('0x2e'));(function(){this['nextButton']=document[_0x5730('0x0')](_0x5730('0x26')),this[_0x5730('0x2f')]['className']='next-button',this[_0x5730('0x2f')][_0x5730('0x6')]=_0x5730('0x30'),this[_0x5730('0x25')][_0x5730('0x7')](this[_0x5730('0x2f')]),0x1==this[_0x5730('0x9')][_0x5730('0xa')]['length']?(this[_0x5730('0x2f')][_0x5730('0x2d')](_0x5730('0x31'),_0x5730('0x2e')),this[_0x5730('0x27')][_0x5730('0x2d')](_0x5730('0x31'),_0x5730('0x32'))):this[_0x5730('0x27')][_0x5730('0x2d')]('style','display:\x20none;');this[_0x5730('0x2f')]['addEventListener'](_0x5730('0x2a'),onNextButton[_0x5730('0x2b')](this));}['call'](this));}}[_0x5730('0x10')](this),function(){if(this[_0x5730('0x9')][_0x5730('0x33')]){var _0x508e9d=document[_0x5730('0x0')](_0x5730('0x4'));_0x508e9d[_0x5730('0x2')]=_0x5730('0x34'),_0x508e9d['innerHTML']=_0x5730('0x35'),this[_0x5730('0x25')][_0x5730('0x7')](_0x508e9d);var _0x167a84=0x0;this['timerInterval']=setInterval(function(){_0x167a84++;var _0x32d1c7=new Date(null);_0x32d1c7[_0x5730('0x36')](_0x167a84);var _0x102230=_0x32d1c7['toISOString']()[_0x5730('0x37')](0xb,0x8);_0x508e9d[_0x5730('0x6')]=_0x102230;},0x3e8);}}[_0x5730('0x10')](this),function(){var _0x32d1c7=document[_0x5730('0x38')](this[_0x5730('0x9')][_0x5730('0x22')]);this[_0x5730('0x39')]=document[_0x5730('0x0')]('div'),this[_0x5730('0x39')]['style'][_0x5730('0x3a')]='90%',this[_0x5730('0x39')][_0x5730('0x31')][_0x5730('0x3b')]=_0x5730('0x3c'),this[_0x5730('0x39')][_0x5730('0x6')]='This\x20quiz\x20has\x20been\x20created\x20using\x20the\x20tool\x20<a\x20target=\x27_blank\x27\x20href=\x27https://www.htmlcodegenerator-tools.com/2019/10/html-javascript-quiz-generator-score-timer.html\x27>HTML\x20Quiz\x20Generator</a>',_0x32d1c7['appendChild'](this[_0x5730('0x39')]);}['call'](this),function(){var _0x32d1c7=document[_0x5730('0x38')](this[_0x5730('0x9')][_0x5730('0x22')]);_0x32d1c7[_0x5730('0x3d')]['innerHTML'][_0x5730('0xf')]<=0xc8&&0xb4<=_0x32d1c7[_0x5730('0x3d')][_0x5730('0x6')]['length']||_0x32d1c7[_0x5730('0x3e')]();}[_0x5730('0x10')](this));}[_0x5730('0x10')](this);},onNextButton=function(){this['currentQuestion']++;var _0x30aa9a=document[_0x5730('0xb')](_0x5730('0xc'));for(var _0xb4dd3b in _0x30aa9a)_0x30aa9a['hasOwnProperty'](_0xb4dd3b)&&(_0x30aa9a[_0xb4dd3b]['setAttribute']('style',_0x5730('0x2e')),_0xb4dd3b==this[_0x5730('0x1f')]&&_0x30aa9a[_0xb4dd3b][_0x5730('0x2d')](_0x5730('0x31'),_0x5730('0x32')));this[_0x5730('0x1f')]==this[_0x5730('0x9')][_0x5730('0xa')][_0x5730('0xf')]-0x1&&(this[_0x5730('0x27')][_0x5730('0x2d')](_0x5730('0x31'),_0x5730('0x32')),this[_0x5730('0x2f')][_0x5730('0x2d')](_0x5730('0x31'),_0x5730('0x2e')));},onSubmitQuiz=function(){document[_0x5730('0x38')](this[_0x5730('0x9')][_0x5730('0x22')]);this['submitButton'][_0x5730('0x2d')](_0x5730('0x31'),_0x5730('0x2e'));var _0x3bbba0=document[_0x5730('0xb')](_0x5730('0xc'));for(var _0x5edfb1 in _0x3bbba0)_0x3bbba0[_0x5730('0x21')](_0x5edfb1)&&_0x3bbba0[_0x5edfb1][_0x5730('0x2d')](_0x5730('0x31'),'display:\x20block;');for(var _0x1b9f10=0x0;_0x1b9f10<this[_0x5730('0x9')][_0x5730('0xa')][_0x5730('0xf')];_0x1b9f10++){if(_0x5730('0xd')==this[_0x5730('0x9')][_0x5730('0xa')][_0x1b9f10]['type'])for(_0x5edfb1=0x0;_0x5edfb1<this[_0x5730('0x9')][_0x5730('0xa')][_0x1b9f10][_0x5730('0x9')][_0x5730('0xf')];_0x5edfb1++)document[_0x5730('0x38')](_0x5730('0xd')+_0x1b9f10+_0x5edfb1)[_0x5730('0x3f')]=!0x0,document[_0x5730('0x38')](_0x5730('0xd')+_0x1b9f10+_0x5edfb1)[_0x5730('0x40')]&&!this[_0x5730('0x9')][_0x5730('0xa')][_0x1b9f10][_0x5730('0x9')][_0x5edfb1][_0x5730('0x41')]?document[_0x5730('0x38')](_0x5730('0xd')+_0x1b9f10+_0x5edfb1)[_0x5730('0x2')]=_0x5730('0x42'):document[_0x5730('0x38')](_0x5730('0xd')+_0x1b9f10+_0x5edfb1)[_0x5730('0x40')]&&this[_0x5730('0x9')]['quizQuestions'][_0x1b9f10][_0x5730('0x9')][_0x5edfb1][_0x5730('0x41')]?(document[_0x5730('0x38')](_0x5730('0xd')+_0x1b9f10+_0x5edfb1)[_0x5730('0x2')]=_0x5730('0x43'),this[_0x5730('0x1e')]++):!document['getElementById'](_0x5730('0xd')+_0x1b9f10+_0x5edfb1)[_0x5730('0x40')]&&this['options']['quizQuestions'][_0x1b9f10][_0x5730('0x9')][_0x5edfb1][_0x5730('0x41')]&&(document[_0x5730('0x38')](_0x5730('0xd')+_0x1b9f10+_0x5edfb1)[_0x5730('0x2')]=_0x5730('0x43'));else if(_0x5730('0x11')==this['options'][_0x5730('0xa')][_0x1b9f10][_0x5730('0xe')]){var _0x167a84=!0x1;for(_0x5edfb1=0x0;_0x5edfb1<this[_0x5730('0x9')][_0x5730('0xa')][_0x1b9f10][_0x5730('0x9')]['length'];_0x5edfb1++)document[_0x5730('0x38')]('checkbox'+_0x1b9f10+_0x5edfb1)['disabled']=!0x0,document[_0x5730('0x38')]('checkbox'+_0x1b9f10+_0x5edfb1)[_0x5730('0x40')]&&!this[_0x5730('0x9')][_0x5730('0xa')][_0x1b9f10][_0x5730('0x9')][_0x5edfb1][_0x5730('0x41')]?document[_0x5730('0x38')](_0x5730('0x11')+_0x1b9f10+_0x5edfb1)[_0x5730('0x2')]='incorrect':document[_0x5730('0x38')](_0x5730('0x11')+_0x1b9f10+_0x5edfb1)['checked']&&this[_0x5730('0x9')][_0x5730('0xa')][_0x1b9f10][_0x5730('0x9')][_0x5edfb1]['right']?document['getElementById']('checkbox'+_0x1b9f10+_0x5edfb1)[_0x5730('0x2')]=_0x5730('0x43'):!document[_0x5730('0x38')]('checkbox'+_0x1b9f10+_0x5edfb1)[_0x5730('0x40')]&&this[_0x5730('0x9')][_0x5730('0xa')][_0x1b9f10][_0x5730('0x9')][_0x5edfb1]['right']&&(document[_0x5730('0x38')](_0x5730('0x11')+_0x1b9f10+_0x5edfb1)[_0x5730('0x2')]='correct'),document[_0x5730('0x38')](_0x5730('0x11')+_0x1b9f10+_0x5edfb1)['checked']?this[_0x5730('0x9')][_0x5730('0xa')][_0x1b9f10][_0x5730('0x9')][_0x5edfb1][_0x5730('0x41')]||(_0x167a84=!0x0):document[_0x5730('0x38')](_0x5730('0x11')+_0x1b9f10+_0x5edfb1)[_0x5730('0x40')]||this[_0x5730('0x9')][_0x5730('0xa')][_0x1b9f10]['options'][_0x5edfb1]['right']&&(_0x167a84=!0x0);_0x167a84||this[_0x5730('0x1e')]++;}_0x67946b[_0x5730('0x10')](this,_0x1b9f10);}this[_0x5730('0x9')][_0x5730('0x33')]&&clearInterval(this[_0x5730('0x44')]);var _0x46bbb2=document[_0x5730('0x0')](_0x5730('0x4'));_0x46bbb2[_0x5730('0x6')]=_0x5730('0x45')+this[_0x5730('0x1e')]+'/'+this[_0x5730('0x9')][_0x5730('0xa')][_0x5730('0xf')],this[_0x5730('0x25')][_0x5730('0x7')](_0x46bbb2);};}());var data = [{"type":"radio","question":"Your boss sends you an email with the upcoming promotion list, it claims to be for another supervisor to review from his private email. What should you do?","explanation":"Sending an email to the person claiming to be your boss may be exponentially dangerous as they can find a way to attach another link to the following email that adds up to the story. You may be very curious, but just ensure that this is actually your boss and there isn't someone impersonating them.","options":[{"value":"Check the link with the promotion file attatched, what if you got a promotion too!?","right":false,"selected":false},{"value":"Send an email back to your boss saying it's the wrong person.","right":false,"selected":false},{"value":"Send an email to the email you know belongs to your boss explaining the situation.","right":true,"selected":false}],"selected":"2"},{"type":"radio","question":"You receive an email from 'instagram' asking you to change your password due to a suspicious login attempt. The person sending message has a similar email to the one that instagram uses but it isn't exact, pushing that aside you open the link and it takes you to the instagram reset page. However, the search bar is filled with numbers and the page looks a little... off. What should you do?","explanation":"Ignoring works, but just in case it may actually be from Instagram unless you're certain it's a scammer you should change your password.","options":[{"value":"Reload the page and change your password.","right":false,"selected":false},{"value":"Send an email back asking who it was.","right":false,"selected":false},{"value":"Reset your password, but open instagram on another tab.","right":true,"selected":false},{"value":"Ignore the email entirely.","right":false,"selected":false}],"selected":"2"},{"type":"radio","question":"You're logging into your bank to check your finances for the upcoming months, when suddenly a pop up appears saying there's an error. You tap on the x button and move back to the tab, you're about to type in your credentials when you notice that the search bar is filled with unfamilliar numbers. What should you do?","explanation":"Reloading MIGHT solve the issue though that is unlikely. The best thing to do is just to re-open the tab and hope that the problem isn't something beyond your control.","options":[{"value":"Type in your credentials, that must have been the error they were talking about.","right":false,"selected":false},{"value":"Reload the page and then log into your account","right":false,"selected":false},{"value":"Re-open the banks page in another tab and log in from there instead.","right":true,"selected":false},{"value":"All of othe above.","right":false,"selected":false}],"selected":"2"}];
+		var quiz = new Quiz({		quizQuestions: data,elementId: 'quiz_container',showAllQuestions:false,showTimer:false});
+		</script>
+
+
+			<p class="auto-style10">&nbsp;</p>
+			<p class="auto-style10">Some other scams you might wanna look out for:</p>
+
+		<h2 class="auto-style10">Smishing</h2>
+		<p>
+		Put simply, smishing is any kind of phishing that involves a text message. Often 
+		times, this form of phishing involves a text message in an SMS or a phone 
+		number. Smishing is particularly scary because sometimes people tend to be more 
+		inclined to trust a text message than an email. Most people are aware of the 
+		security risks involved with clicking on links in emails. This is less true when 
+		it comes to text messages.</p>
+
+		<p>
+		<span class="auto-style14">Smishing uses elements of<span>&nbsp;</span></span><a class="auto-style14" href="https://community.norton.com/en/blogs/norton-protection-blog/what-social-engineering" style="box-sizing: border-box; background-color: transparent; text-decoration: none;">social 
+		engineering</a><span class="auto-style14">&nbsp;to get you to share your personal 
+		information. This tactic leverages your trust in order to obtain your 
+		information. The information a smisher is looking for can be anything from an 
+		online password to your Social Security Number to your credit card information. 
+		Once the smisher has that they can often start applying for new credit in your 
+		name. That’s where you’re really going to start running into problems.
+		<a href="https://us.norton.com/internetsecurity-emerging-threats-what-is-smishing.html">-norton.com</a></span>
+
+
+		<h2 class="auto-style10">Spoofing</h2>
+		<p class="auto-style10">
+		Spoofing is a type of scam in which criminals attempt to obtain someone's 
+		personal information by pretending to be a legitimate business, a neighbor, or 
+		some other innocent party.<a href="https://www.investopedia.com/terms/s/spoofing.asp">-investopedia.com</a></p>
+
+		<p class="auto-style10">&nbsp;</p>
+
+
+		<h1 class="auto-style8">FURTHER READING</h1>
+		<ul>
+			<li>
+			<p class="auto-style16">
+			<a href="https://www.avira.com/en/blog/formjacking-what-it-is-and-how-to-protect-yourself">
+			Formjacking: What it is, and how to protect yourself | Avira Blog</a></p>
+			</li>
+			<li>
+			<p class="auto-style16">
+			<a href="https://creditcards.usnews.com/articles/what-is-formjacking-and-how-can-i-protect-my-credit-card">
+			What Is Formjacking and How Can I Protect My Credit Card? | US News</a></p>
+			</li>
+			<li>
+			<p class="auto-style16">
+			<a href="https://www.comparitech.com/blog/information-security/what-is-formjacking/">
+			What is formjacking? How to prevent formjacking attacks in 2021 
+			(comparitech.com)</a></p>
+			</li>
+			<li>
+			<p class="auto-style16">
+			<a href="https://www.aarp.org/money/scams-fraud/info-2020/smishing.html">
+			What Is Smishing? How Scammers Use Texts to Steal Your Data (aarp.org)</a></p>
+			</li>
+			<li>
+			<p class="auto-style16">
+			<a href="https://www.forcepoint.com/cyber-edu/spoofing">What is Spoofing? 
+			Definition and Explanation | Forcepoint</a></p>
+			</li>
+			<li>
+			<p class="auto-style16">
+			<a href="https://www.kaspersky.com/resource-center/definitions/spoofing">
+			What is Spoofing? | IP &amp; Email Spoofing Attacks | Kaspersky</a></p>
+			</li>
+			<li>
+			<p class="auto-style16">
+			<a href="https://www.kaspersky.com/resource-center/definitions/pharming">
+			What is Pharming? | Definition and Risks | Kaspersky</a></p>
+			</li>
+			<li>
+			<p class="auto-style16">
+			<a href="https://www.avg.com/en/signal/what-is-pharming">What is Pharming? | 
+			How to Protect Against Attacks | AVG</a></p>
+			</li>
+			<li>
+			<p class="auto-style16"><a href="https://www.phishing.org/what-is-phishing">
+			Phishing | What Is Phishing?</a></p>
+			</li>
+			<li>
+			<p class="auto-style16">
+			<a href="https://www.merriam-webster.com/dictionary/phishing">Phishing | 
+			Definition of Phishing by Merriam-Webster</a></p>
+			</li>
+			<li>
+			<p class="auto-style16">
+			<a href="https://www.cisco.com/c/en/us/products/security/email-security/what-is-phishing.html">
+			What Is Phishing? Examples and Phishing Quiz - Cisco</a></p>
+			</li>
+		</ul>
+		<p class="auto-style10">&nbsp;</p>
+
+
+
+
+
+
+
+
+
+		</div>
+		<p style="font-size: 15px">Sources:
+		8 Types of Online Scams to Look Out For - Surfshark
+		The most famous cryptocurrency scams, signs of scams and the reasons why that happens (changelly.com)
+		CipherTrace-Cryptocurrency-Anti-Money-Laundering-Report-2019-Q2-1.pdf
+		Hillcrest Secondary (Internet Safety Week Assembly) Week 6, Term 2- 2020/21 - YouTube
+		How to Fake an Email From Almost Anyone in Under 5 Minutes – dylan tweney
+		Fake Good Samaritan Email Delivers Well-Disguised Malware - Dynamic Business Technologies (dbtechnologies.com.au)
+		Fake Email Sign-In Alert | Library & Technology Services (lehigh.edu)
+		CodeActually: Interactive Quiz
+		What is Pharming? | How to Prevent Pharming Attacks (comodo.com)
+		https://securityaffairs.co/wordpress/22081/cyber-crime/cert-polska-detected-large-scale-dns-hacking-home-routers.html
+		Man Fishing Silhouette SVG Cut file by Creative Fabrica Crafts · Creative Fabrica
+		we are anonymous: Save your Facebook Account (gonnahack.blogspot.com)
+		Download Maxthon Nitro 1.0.13000 for Windows - Filehippo.com
+		HTTPS, Secure Connection, SSL.. What gives? (codingblocks.com)
+		Silhouette Of A Hacker In A Hood With Binary Code On A Luminous Blue Background Hacking Of A Computer System Theft Of Data Stock Illustration - Download Image Now - iStock (istockphoto.com)
+		Kaspersky Anti-Virus 4 PC Licence 1 an - DakarStock
+		HTML Quiz Generator (htmlcodegenerator-tools.com)
+		What Is Smishing? (norton.com)
+		Spoofing Definition (investopedia.com)</span>
+		</p><br>
+		<!--
+		<a href="https://hillcrestke-my.sharepoint.com/personal/bers_abdi24_students_hillcrest_ac_ke/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbers%5Fabdi24%5Fstudents%5Fhillcrest%5Fac%5Fke%2FDocuments%2Fcs%20website%2Fplagerism%20checked%2DShanil%2CPatrick%2CBersa%2FHacking%20Firewalls%20and%20Proxy%20servers%2Findex%2Ehtml&parent=%2Fpersonal%2Fbers%5Fabdi24%5Fstudents%5Fhillcrest%5Fac%5Fke%2FDocuments%2Fcs%20website%2Fplagerism%20checked%2DShanil%2CPatrick%2CBersa%2FHacking%20Firewalls%20and%20Proxy%20servers">Back to home</a>-->
+
+<!--NEW! back and next buttons-->
+		<div class="btns">
+			<button  class="back">
+				<a class="color_btn" href="bersa.html">Previous page</a>
+			</button><!--not available for the first page-->
+
+			<button class="next">
+				<a class="color_btn" href="index.html">Back to home</a>
+			</button><!--not available for last page-->	
+		</div>
+
+
+
+		</div> <!--content closing tag-->
+
+
+
+<!--NEW-->
+		<footer>
+			<br><br><hr>
+			<div class="container" style="color: #76767C;">
+				&copy; Copyright 2021-WebSec IT private service Limited 
+			</div>
+		</footer>
+		<br>
+
+</body>
+</html>
