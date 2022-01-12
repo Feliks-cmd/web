@@ -1,2 +1,1 @@
-# sch-web
-website
+# school security website
